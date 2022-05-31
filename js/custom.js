@@ -106,12 +106,12 @@ $(document).ready(function()
 			{
 				items: 1,
 				loop: true,
-				autoplay:false,
+				autoplay:true,
 				animateOut: 'slideOutDown',
 				animateIn: 'flipInX',
 				dots:false,
 				nav:false,
-				autoplayTimeout:5000,
+				autoplayTimeout:2000,
 				autoplaySpeed:800,
 				smartSpeed:800
 			});
