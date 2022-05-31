@@ -700,21 +700,20 @@ section
 4. Menu
 *********************************/
 
-.menu_container
-{
-	position: fixed;
-	top: 0;
-	right: -400px;
-	width: 400px;
-	height: 100vh;
-	background: #FFFFFF;
-	z-index: 11;
-	opacity: 0;
-	-webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
-	-moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
-	-ms-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
-	-o-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
-	transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+.menu_container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 139px;
+    height: 100vh;
+    background: #ffffff00;
+    z-index: 11;
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    -ms-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    -o-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+    transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
 }
 .menu_container.active
 {
@@ -741,32 +740,16 @@ section
 {
 	color: #ff6b09;
 }
-.menu ul
-{
-	padding-top: 115px;
-	padding-right: 50px;
+.menu ul {
+	background: white;
+    border-radius: 0px 0 0 90px;
+    
 }
 .menu ul li
 {
 	position: relative;
 }
-.menu ul li::after
-{
-	display: block;
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	right: -10px;
-	width: 5px;
-	height: 5px;
-	border-radius: 50%;
-	background: #ff6b09;
-	content: '';
-}
+
 .menu ul li.active a
 {
 	font-weight: 700;
