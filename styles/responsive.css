@@ -43,7 +43,7 @@
 	}
 	.v_slider .slick-dots
 	{
-		right: -55px;
+		right: 2%;
 	}
 }
 
@@ -114,7 +114,7 @@
 {
 	.v_slider .slick-dots
 	{
-		right: -15px;
+		right: 2%;
 	}
 }
 
@@ -133,6 +133,10 @@
 
 @media only screen and (max-width: 991px)
 {
+	.b-blue{
+		min-height: 150vh;
+		max-height: 1200px;
+	}
 	.main_nav
 	{
 		display: none;
@@ -197,6 +201,14 @@
 		transform: none;
 		right: auto;
 		box-shadow: 0px 45px 59px rgba(24, 29, 33, 0.23);
+	}
+	.v_slider_image h1{
+		color: white;
+		font-size: 60px;
+	}
+	.v_slider_image h2{
+		color: white;
+		font-size: 30px;
 	}
 	.v_slider_image img
 	{
@@ -346,6 +358,14 @@
 
 @media only screen and (max-width: 575px)
 {
+	.v_slider_container h2{
+		font-size: 25px;
+		
+	}
+	.big-letter h2{
+		font-size: 50px;
+
+}
 	.logo
 	{
 		padding-left: 15px;
